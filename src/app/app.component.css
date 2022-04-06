@@ -1,0 +1,31 @@
+button{
+  padding: 5px 15px;
+  margin-right: 10px;
+  border: none;
+  font-size: 12px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+button.play{
+  background-color: rgb(63, 90, 243);
+  color: #fff;
+}
+button.play:hover{
+  background-color: rgb(34, 56, 182);
+}
+button.stop{
+  background-color: rgb(245, 79, 79);
+  color: #fff;
+}
+button.stop:hover{
+  background-color: rgb(202, 48, 48);
+}
+
+.playlist{
+  margin-top: 10px;
+}
+
+.playlist button{
+  display: block;
+  margin-bottom: 10px;
+}
